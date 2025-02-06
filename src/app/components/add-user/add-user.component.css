@@ -1,0 +1,22 @@
+.cancel-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.inline-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+mat-option {
+  display: flex;
+  align-items: center;
+}
+
+.add-workout-button {
+  border-radius: 8px;
+  width: 150px;
+}
