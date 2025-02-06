@@ -1,59 +1,84 @@
-# HealthChallengeTracker
+<h1>Health Challenge Tracker</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+<h2>Overview</h2>
+<p>
+  <b>Health Challenge Tracker</b> is a single-page application (SPA) developed using <b>Angular 14+</b>. This application allows users to track their workouts, manage workout data, and visualize progress through various features. It helps users maintain their fitness goals and monitor activities efficiently.
+</p>
 
-## Development server
+<h2>Features</h2>
 
-To start a local development server, run:
+<h3>User Input</h3>
+<ul>
+  <li><b>Add User Details:</b> Users can input their name, workout type, and workout duration.</li>
+  <li><b>Workout Tracking:</b> Records and displays user workout data in a structured format.</li>
+</ul>
 
-```bash
-ng serve
-```
+<h3>Workout List</h3>
+<ul>
+  <li><b>Search by Name:</b> Quickly find users by searching for their names.</li>
+  <li><b>Filter by Workout Type:</b> Filter the workout list based on the type of workout.</li>
+  <li><b>Pagination:</b> Efficiently navigate through large lists of users with pagination.</li>
+</ul>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<h3>Data Visualization</h3>
+<ul>
+  <li><b>Workout Progress Charts:</b> Display users' workout progress using charts for better visualization.</li>
+</ul>
 
-## Code scaffolding
+<h3>Storage</h3>
+<ul>
+  <li><b>LocalStorage:</b> User data is stored locally using <code>localStorage</code> for persistence.</li>
+</ul>
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<h3>Responsive Design</h3>
+<ul>
+  <li><b>Responsive UI:</b> The application is designed to be user-friendly and accessible on various devices.</li>
+</ul>
 
-```bash
-ng generate component component-name
-```
+<h2>Getting Started</h2>
+<p>Follow these steps to run the application locally.</p>
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<h3>Prerequisites</h3>
+<ul>
+  <li><a href="https://nodejs.org/en/">Node.js</a></li>
+  <li><a href="https://angular.io/cli">Angular CLI</a></li>
+</ul>
 
-```bash
-ng generate --help
-```
+<h3>Installation</h3>
+<ol>
+  <li>
+    <b>Clone the Repository:</b>
+    <pre><code>git clone https://github.com/priyasharanam1/health-challenge-angular.git
+cd health-challenge-angular
+</code></pre>
+  </li>
+  <li>
+    <b>Install Dependencies:</b>
+    <pre><code>npm install</code></pre>
+  </li>
+</ol>
 
-## Building
+<h3>Running the Application</h3>
+<ol>
+  <li>
+    <b>Start the Development Server:</b>
+    <pre><code>ng serve</code></pre>
+    Navigate to <code>http://localhost:52144/</code>. The application will automatically reload if you change any source files.
+  </li>
+</ol>
 
-To build the project run:
+<h3>Code Scaffolding</h3>
+<p>To generate a new component, use the following command:</p>
+<pre><code>ng generate component component-name</code></pre>
+<p>You can also use:</p>
+<pre><code>ng generate directive|pipe|service|class|guard|interface|enum|module</code></pre>
 
-```bash
-ng build
-```
+<h3>Building the Application</h3>
+<p>To build the project, run:</p>
+<pre><code>ng build</code></pre>
+<p>The build artifacts will be stored in the <code>dist/</code> directory.</p>
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<h2>Contact</h2>
+<p>
+  For any questions, please contact <a href="sharmapriya02108@gmail.com">sharmapriya02108@gmail.com</a>.
+</p>
