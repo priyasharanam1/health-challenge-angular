@@ -65,7 +65,12 @@ cd health-challenge-angular
     <pre><code>ng serve</code></pre>
     Navigate to <code>http://localhost:52144/</code>. The application will automatically reload if you change any source files.
   </li>
+  <li>
+    <b>Live Preview:</b>
+    You can view the live version of the application at <a href="https://track-your-health.netlify.app/" target="_blank">https://track-your-health.netlify.app/</a>.
+  </li>
 </ol>
+
 
 <h3>Code Scaffolding</h3>
 <p>To generate a new component, use the following command:</p>
